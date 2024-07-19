@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Patil - Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- AOS (Animate on Scroll) Library -->
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+    <style>
+        /* Apply the Google Font */
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .header-font {
+            font-family: 'Roboto', sans-serif;
+        }
+        /* Smooth Scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Custom button styles */
+        .nav-button {
+            background-color: #ceccc7; /* Light yellow color */
+            color: #000; /* Black text */
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .nav-button:hover {
+            background-color: #95a9af; /* Darker yellow on hover */
+        }
+        /* Custom block styles */
+        .info-block {
+            background-color: #FFFFFF; /* White background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .divider {
+            border-top: 2px solid #e2e8f0; /* Light gray color */
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body class="bg-gray-200 text-gray-800">
+    <!-- Header -->
+    <header class="bg-teal-800 text-black py-6">
+        <nav class="container mx-auto flex justify-between items-center">
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="nav-button">About Me</a></li>
+                <li><a href="#skills" class="nav-button">Skills</a></li>
+                <li><a href="#projects" class="nav-button">Projects</a></li>
+                <li><a href="#contact" class="nav-button">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="text-center mt-10" data-aos="fade-down">
+            <div class="info-block" data-aos="fade-up">
+                <h1 class="text-5xl font-bold header-font">Ashish Patil</h1>
+                <div class="divider"></div>
+                <p class="text-xl font-semibold">A Student with a Passion for Learning and Innovation</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="container mx-auto px-4 py-12" data-aos="fade-up">
+        <h2 class="text-4xl font-bold border-b-4 border-teal-800 pb-4 header-font">About Me</h2>
+        <p class="mt-4 text-lg font-semibold">Hello there, Welcome to my portfolio! I'm Ashish. I'm a Second-Year Computer Science 🧑‍💻 student currently pursuing my B.tech C.S.E.(AIML) from GHRCEM, Pune 🎒. I love working on projects with my friends. With a cup of Coffee ☕ in hand, I'm ready to tackle Challenging errors, immerse myself in Great literature 📖, and discover New ideas through podcasts 🎧. I'm a passionate programmer with a love for coding and debugging in Python 🐍. </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-white py-12" data-aos="fade-up">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold border-b-4 border-teal-800 pb-4 header-font">Skills</h2>
+            <ul class="mt-4 space-y-4">
+                <li class="bg-gray-100 p-4 rounded-lg shadow-lg font-semibold">Python - Pandas, Tkinter</li>
+                <li class="bg-gray-100 p-4 rounded-lg shadow-lg font-semibold">C & C++</li>
+                <li class="bg-gray-100 p-4 rounded-lg shadow-lg font-semibold">HTML</li>
+                <li class="bg-gray-100 p-4 rounded-lg shadow-lg font-semibold">Flutter - Dart</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto px-4 py-12" data-aos="fade-up">
+        <h2 class="text-4xl font-semibold border-b-4 border-teal-800 pb-4 header-font">Projects</h2>
+        <div class="mt-4 space-y-6">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-3xl font-bold header-font">US States</h3>
+                <p class="mt-2">This project is programmed in Python using two main libraries, which are 'Pandas' & 'Turtle'. It is a funny & educational game. When you run the code of this project you get the map of the US country, on this map, you enter the names of states included in the US country.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-3xl font-bold header-font">Home Price Predictor</h3>
+                <p class="mt-2">This interactive project uses machine learning algorithms to estimate the value of properties based on various features such as location, size, and amenities. This website uses a trained model to predict the property's value based on historical data and market trends. I made this project under guidelines of experts with enjoying so much new things.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-3xl font-bold header-font">Turtle Crossing Game</h3>
+                <p class="mt-2">This Game is programmed using Python, mainly used turtle library. The Turtle attempts to cross a road while avoiding moving cars. The cars speeds up and increases the score each time the turtle successfully crosses to the other side. For more difficulty, the turtle is only able to go forward not backward or any other side. This is very funny & enjoyable game.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-3xl font-bold header-font">Snake Game</h3>
+                <p class="mt-2">This game is so much popular. I think everyone played this game in there childhood. I programmed this game also in python. In my Python coding journey as a beginner, this game is so much concept clearing for me.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+                <h3 class="text-3xl font-bold header-font">Coffee Machine</h3>
+                <p class="mt-2">I programmed the software part of coffee machine. This code effectively simulates a coffee vending machine where users can select a drink, check resources, and handle payments. It keeps running until the user turns the machine off.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+<section id="contact" class="bg-white py-12" data-aos="fade-up">
+    <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-bold border-b-4 border-teal-800 pb-4 header-font">Contact</h2>
+        <p class="mt-4 font-semibold">Feel free to reach out to me through the following channels:</p>
+        <ul class="mt-4 space-y-2">
+            <li><span class="font-semibold">Email:</span> <a href="mailto:patilashish1005@gmail.com" class="text-teal-600 hover:text-blue-500 hover:underline">patilashish1005@gmail.com</a></li>
+            <li><span class="font-semibold">LinkedIn:</span> <a href="https://www.linkedin.com/in/ashish-patil-a8713928b/" target="_blank" class="text-teal-600 hover:text-blue-500 hover:underline">linkedin.com/in/Ashish-Patil</a></li>
+            <li><span class="font-semibold">GitHub:</span> <a href="https://github.com/Amp1005" target="_blank" class="text-teal-600 hover:text-blue-500 hover:underline">github.com/Amp1005</a></li>
+        </ul>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-teal-800 text-white text-center py-4" data-aos="fade-up">
+        <p>&copy; 2024 Ashish Patil. All rights reserved.</p>
+    </footer>
+
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
+
